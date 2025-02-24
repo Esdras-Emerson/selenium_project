@@ -35,12 +35,16 @@ Este projeto utiliza a biblioteca Selenium para realizar a raspagem de dados (we
 - `print(f"Number of tables found: {len(tables)}")`: Imprime o número de tabelas encontradas na página.
 
 ## Como Executar
-
-1. Certifique-se de ter o Python e o Selenium instalados em seu ambiente.
-2. Baixe o driver do navegador correspondente (por exemplo, ChromeDriver para Google Chrome) e adicione-o ao PATH do sistema.
-3. Execute os scripts `carro_ml2.py`, `localiza_.py` e `tabelas_site.py` para iniciar a raspagem de dados.
+1. Clone o repositório para o seu ambiente local:
 
 ```bash
-python carro_ml2.py
-python localiza_.py
-python tabelas_site.py
+git clone <URL_DO_REPOSITORIO>
+cd selenium_project
+
+2. Certifique-se de ter o Python e o Selenium instalados em seu ambiente.
+3. Baixe o driver do navegador correspondente (por exemplo, ChromeDriver para Google Chrome) e adicione-o ao PATH do sistema.
+4. Utilize o Uv para criar e ativar um ambiente virtual:
+
+```bash
+uv new selenium_project_env
+uv activate selenium_project_env
